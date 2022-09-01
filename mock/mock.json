@@ -1,0 +1,214 @@
+{
+  "/goods/applet/v1/getProductById": {
+    "body": {
+      "browseNumber": 120,
+      "className": "班别名称",
+      "description": "<p>CT商品描述dasdsad&nbsp;< img src=\"https://ctjt-dev.oss-cn-shenzhen.aliyuncs.com/goods/de44c3dee057a000c11ffd3104ec3b85.jpg\" style=\"font-size: 14px; max-width: 100%;\"/></p >",
+      "id": 1234,
+      "isInstallment": 1,
+      "name": "商品名称商品名称商品名称商品名称商品",
+      "originalPrice": 5870,
+      "phaseOneAmount": 1890,
+      "photoUrl": "[{\"photoUrl\": \"https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg\"}, {\"photoUrl\": \"https://baikevideo.cdn.bcebos.com/media/mda-O9VRikNvb4QWwVgf/306e206d770c8430b14ff0b4a276dd4a.mp4\"}]",
+      "registeredNumber": 23,
+      "salesPrice": 5388,
+      "trainingItem": "[{\"id\": 1, \"label\": \"c1人工带教\", \"salesPrice\": \"2800\"}, {\"id\": 2, \"label\": \"C1人工智能班\", \"salesPrice\": \"3000\"}]",
+      "status": 1
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/goods/applet/v1/queryProductListForAppletBySchoolId": {
+    "body": [
+      {
+        "browseNumber": 1230,
+        "className": "班别名称",
+        "description": "<p>描述</p>",
+        "id": "123",
+        "isInstallment": 1,
+        "name": "商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称",
+        "originalPrice": 5880,
+        "phaseOneAmount": 1800,
+        "photoUrl": "[{\"photoUrl\": \"https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg\"}, {\"photoUrl\": \"https://baikevideo.cdn.bcebos.com/media/mda-O9VRikNvb4QWwVgf/306e206d770c8430b14ff0b4a276dd4a.mp4\"}]",
+        "registeredNumber": 45,
+        "status": 1,
+        "trainingItem": "[{\"id\": 1, \"label\": \"c1人工带教\", \"salesPrice\": \"3000\"}, {\"id\": 2, \"label\": \"C1人工智能班\", \"salesPrice\": \"3000\"}]"
+      },{
+        "browseNumber": 1230,
+        "className": "班别名称",
+        "description": "<p>描述</p>",
+        "id": "123",
+        "isInstallment": 1,
+        "name": "商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称",
+        "originalPrice": 5880,
+        "phaseOneAmount": 1800,
+        "photoUrl": "[{\"photoUrl\": \"https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg\"}, {\"photoUrl\": \"https://baikevideo.cdn.bcebos.com/media/mda-O9VRikNvb4QWwVgf/306e206d770c8430b14ff0b4a276dd4a.mp4\"}]",
+        "registeredNumber": 45,
+        "status": 1,
+        "trainingItem": "[{\"id\": 1, \"label\": \"c1人工带教\", \"salesPrice\": \"3000\"}, {\"id\": 2, \"label\": \"C1人工智能班\", \"salesPrice\": \"3000\"}]"
+      },{
+        "browseNumber": 1230,
+        "className": "班别名称",
+        "description": "<p>描述</p>",
+        "id": "123",
+        "isInstallment": 1,
+        "name": "商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称商品名称",
+        "originalPrice": 5880,
+        "phaseOneAmount": 1800,
+        "photoUrl": "[{\"photoUrl\": \"https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg\"}, {\"photoUrl\": \"https://baikevideo.cdn.bcebos.com/media/mda-O9VRikNvb4QWwVgf/306e206d770c8430b14ff0b4a276dd4a.mp4\"}]",
+        "registeredNumber": 45,
+        "status": 1,
+        "trainingItem": "[{\"id\": 1, \"label\": \"c1人工带教\", \"salesPrice\": \"3000\"}, {\"id\": 2, \"label\": \"C1人工智能班\", \"salesPrice\": \"3000\"}]"
+      }
+    ],
+    "code": 200,
+    "msg": ""
+  },
+  "/user/v1/wechat/queryUserCoachDetail": {
+    "body": {
+      "carModel": "string",
+      "certificateLevel": "string",
+      "certificateNo": "string",
+      "certificateValidDate": "string",
+      "distributionStudentMax": 0,
+      "driverLicenseNo": "string",
+      "drivingSchoolName": "深港驾校",
+      "drivingSchoolId": "1234",
+      "entryTime": "string",
+      "idNo": "string",
+      "issueDate": "string",
+      "leader_name": "string",
+      "mobile": "13873876667",
+      "postType": 0,
+      "quasiDrivingModel": "string",
+      "regionName": "string",
+      "secondaryStoreName": "string",
+      "sex": 0,
+      "showStar": 3,
+      "status": 0,
+      "storeName": "string",
+      "subjectThreeLoad": 0,
+      "subjectTwoLoad": 0,
+      "teachingClass": "string",
+      "teachingSubjects": "string",
+      "totalLoad": 0,
+      "type": 0,
+      "userName": "刘德华",
+      "validDate": "string"
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/space/applet/v1/queryStoreListForAppletBySchoolId": {
+    "body": [
+      {
+        "address": "梅林街道广仁大楼1楼",
+        "areaName": "福田区",
+        "cityName": "深圳市",
+        "image": "https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg",
+        "latitude": 22.542616517667955,
+        "longitude": 114.08278931591795,
+        "name": "广仁店",
+        "otherService": 0,
+        "provinceName": "",
+        "regionName": "",
+        "telephone": "0755-8723665"
+      },{
+        "address": "梅林街道广仁大楼1楼",
+        "areaName": "福田区",
+        "cityName": "深圳市",
+        "image": "https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg",
+        "latitude": 22.542616517667955,
+        "longitude": 114.08278931591795,
+        "name": "",
+        "otherService": 0,
+        "provinceName": "",
+        "regionName": "",
+        "telephone": "0755-8723665"
+      }
+    ],
+    "code": 200,
+    "msg": ""
+  },
+  "/space/applet/v1/queryTrainingPlaceListForAppletBySchoolId": {
+    "body": [
+      {
+        "address": "梅林街道广仁大楼1楼",
+        "areaName": "福田区",
+        "cityName": "深圳市",
+        "latitude": 22.542616517667955,
+        "longitude": 114.08278931591795,
+        "name": "清湖训练场",
+        "otherService": 0,
+        "photoUrl": "[{\"photoUrl\": \"https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg\"}, {\"photoUrl\": \"https://baikevideo.cdn.bcebos.com/media/mda-O9VRikNvb4QWwVgf/306e206d770c8430b14ff0b4a276dd4a.mp4\"}]",
+        "provinceName": "",
+        "regionName": ""
+      }
+    ],
+    "code": 200,
+    "msg": ""
+  },
+  "/order/app/confirm": {
+    "body": {
+      "orderId": 1234
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/user/v1/wechat/createStudentCar": {
+    "body": {
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/order/app/getOrder": {
+    "body": {
+      "address": "广东省深圳市福田区梅林街道广仁大楼1楼",
+      "balance": 1880,
+      "carModel": "C2",
+      "className": "班别",
+      "id": 1234,
+      "idNo": "4210981993090934453",
+      "isInstallment": 1,
+      "learnType": "[{\"id\": 1, \"label\": \"初学\"}]",
+      "mobile": "13588768889",
+      "orderSeq": "1234",
+      "payAmount": 3880,
+      "productName": "我是商品名称",
+      "sex": 1,
+      "studentName": "刘德华",
+      "transactionId": "1234222"
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/order/app/getOrders": {
+    "body": {
+      "current": 0,
+      "data": [{
+        "amount": 1880,
+        "id": 123,
+        "payStatus": 2,
+        "payTime": "2021-05-19 07:08:13",
+        "productImg": "https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg",
+        "productName": "商品信息商品信息商品信息商品信息",
+        "totalAmount": 5880,
+        "isInstallment": 1
+      },{
+        "amount": 1880,
+        "id": 123,
+        "payStatus": 2,
+        "payTime": "2021-05-19 07:08:13",
+        "productImg": "https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg",
+        "productName": "商品信息商品信息商品信息商品信息",
+        "totalAmount": 5880,
+        "isInstallment": 1
+      }],
+      "pageCount": 0,
+      "pageSize": 0,
+      "total": 0
+    },
+    "code": 200,
+    "msg": ""
+  }
+}

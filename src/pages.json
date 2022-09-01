@@ -1,0 +1,305 @@
+{
+	"pages": [
+		{
+			"path": "pages/public/home_new/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+    {
+      "path": "pages/personal/invite/index",
+      "style": {
+        "navigationBarTitleText": "邀请"
+      }
+    },
+    {
+      "path": "pages/personal/invite/landing_page",
+      "style": {
+        "navigationBarTitleText": "报名"
+      }
+    },
+    {
+      "path": "pages/personal/invite/collect_form",
+      "style": {
+        "navigationBarTitleText": "报名"
+      }
+    },
+    {
+      "path": "pages/personal/invite/my_invite",
+      "style": {
+        "navigationBarTitleText": "我的邀请"
+      }
+    },
+    {
+      "path": "pages/personal/invite/coach_invite",
+      "style": {
+        "navigationBarTitleText": " "
+      }
+    },
+		{
+			"path": "pages/public/dynamic/index",
+			"style": {
+				"navigationBarTitleText": "动态"
+			}
+		},
+		{
+			"path": "pages/public/dynamic/publish/index",
+			"style": {
+				"navigationBarTitleText": "发布动态"
+			}
+		},
+    {
+			"path": "pages/public/dynamic/publish/new_index",
+			"style": {
+				"navigationBarTitleText": "发布动态"
+			}
+		},
+    {
+			"path": "pages/public/dynamic/publish/dynamic_classify",
+			"style": {
+				"navigationBarTitleText": "发布列表"
+			}
+		},
+    {
+			"path": "pages/public/dynamic/publish/publish_article",
+			"style": {
+				"navigationBarTitleText": "发布推文"
+			}
+		},
+    {
+			"path": "pages/public/dynamic/publish/certificate",
+			"style": {
+				"navigationBarTitleText": "荣誉证书"
+			}
+		},
+    {
+			"path": "pages/public/dynamic/publish/article",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/public/dynamic/publish/fenxiao",
+			"style": {
+				"navigationBarTitleText": "发布分销"
+			}
+		},
+		{
+			"path": "pages/public/dynamic/publish/lijian",
+			"style": {
+				"navigationBarTitleText": "发布优惠券"
+			}
+		},
+    {
+			"path": "pages/public/dynamic/publish/nemt",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+    {
+			"path": "pages/public/dynamic/publish/coolschoolcar",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},		
+		{
+			"path": "pages/public/dynamic/publish/share_landingpage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/public/goods_detail/index",
+			"style": {
+				"navigationBarTitleText": "班别详情"
+			}
+		},
+		{
+			"path": "pages/public/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/public/name_card/index",
+			"style": {
+				"navigationBarTitleText": "我的名片"
+			}
+		},
+		{
+			"path": "pages/public/name_card/edit",
+			"style": {
+				"navigationBarTitleText": "我的名片"
+			}
+		},
+		{
+			"path": "pages/public/wallet/index",
+			"style": {
+				"navigationBarTitleText": "我的钱包",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 40
+			}
+		},
+    {
+			"path": "pages/public/card_voucher/index",
+			"style": {
+				"navigationBarTitleText": "我的卡券"
+			}
+		},
+		{
+			"path": "pages/public/my/gr_menu/arrange/index",
+			"style": {
+				"navigationBarTitleText": "我的排班"
+			}
+		},
+    {
+			"path": "pages/public/my/gr_menu/teaching/index",
+			"style": {
+				"navigationBarTitleText": "我的带教"
+			}
+		},
+    {
+			"path": "pages/public/my/gr_menu/overtime/index",
+			"style": {
+				"navigationBarTitleText": "我的加钟"
+			}
+		},
+    {
+			"path": "pages/public/my/gr_menu/student/index",
+			"style": {
+				"navigationBarTitleText": "我的学员"
+			}
+		},
+    {
+			"path": "pages/public/my/gr_menu/search/index",
+			"style": {
+				"navigationBarTitleText": "学员查询"
+			}
+		},
+		{
+			"path": "pages/public/attention_services_number/index",
+			"style": {
+				"navigationBarTitleText": "关注服务号"
+			}
+		},
+		{
+			"path": "pages/public/home_new/web_view",
+			"style": {
+				"navigationBarTitleText": " "
+			}
+		},
+		{
+			"path": "pages/public/thread_new/index",
+			"style": {
+				"navigationBarTitleText": "线索"
+			}
+		},
+		{
+			"path": "pages/public/thread_new/detail",
+			"style": {
+				"navigationBarTitleText": "线索详情"
+			}
+		},
+		{
+			"path": "package_im/pages/TUI-Conversation/conversation/conversation",
+			"style": {
+				"navigationBarTitleText": "会话列表"
+			}
+		},
+		{
+			"path": "package_im/pages/TUI-Chat/chat",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+  "subpackages": [
+    {
+      "root": "package_order",
+      "name": "package_order",
+      "pages": [
+        {
+          "path": "payment/index",
+          "style": {
+            "navigationBarTitleText": "确认支付"
+          }
+        },
+        {
+          "path": "sign_up_success/index",
+          "style": {
+            "navigationBarTitleText": "报名成功"
+          }
+        },
+        {
+          "path": "sign_up_order_detail/index",
+          "style": {
+            "navigationBarTitleText": "报名订单详情"
+          }
+        },
+        {
+          "path": "sign_up_form/index",
+          "style": {
+            "navigationBarTitleText": "填写报名信息"
+          }
+        },
+        {
+          "path": "sign_up_form_success/index",
+          "style": {
+            "navigationBarTitleText": "填写报名信息成功"
+          }
+        },
+        {
+          "path": "sign_up_order_list/index",
+          "style": {
+            "navigationBarTitleText": "报名订单"
+          }
+        }
+      ]
+    }
+  ],
+	"tabBar": {
+		"custom": true,
+		"color": "#999999",
+		"selectedColor": "#353535",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/public/home_new/index",
+				"iconPath": "static/images/tab_icon_shouye_default.png",
+				"selectedIconPath": "static/images/tab_icon_shouye_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/public/dynamic/index",
+				"iconPath": "static/images/tab_icon_dongtai_default.png",
+				"selectedIconPath": "static/images/tab_icon_dongtai_selected.png",
+				"text": "动态"
+			},
+			{
+				"pagePath": "package_im/pages/TUI-Conversation/conversation/conversation",
+				"iconPath": "static/images/tab_icon_xiaoxi_default.png",
+				"selectedIconPath": "static/images/tab_icon_xiaoxi_selected.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/public/thread_new/index",
+				"iconPath": "static/images/tab_icon_xiaoxi_default.png",
+				"selectedIconPath": "static/images/tab_icon_xiaoxi_selected.png",
+				"text": "线索"
+			},
+			{
+				"pagePath": "pages/public/my/index",
+				"iconPath": "static/images/tab_icon_wode_default.png",
+				"selectedIconPath": "static/images/tab_icon_wode_selected.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F5F3F5"
+	}
+}

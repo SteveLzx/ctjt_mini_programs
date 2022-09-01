@@ -1,0 +1,4 @@
+!src
+src/assets/js/verification_rules.ts
+src/components/barrage/index.ts
+src/pages/public/home/skeleton.vue

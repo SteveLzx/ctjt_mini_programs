@@ -1,0 +1,76 @@
+// 颜色规范
+// 背景
+@ctjt-bgcolor-primary: #F5F3F5;
+@ctjt-bgcolor-label: #FFE3D7;
+// 主色调
+@ctjt-color-primary: #FFD944;
+@ctjt-color-primary-70: #F3762D;
+@ctjt-color-primary-50: #F79B2E;
+@ctjt-color-primary-30: #F6B66A;
+@ctjt-color-primary-40: #ECF9FF;
+@ctjt-color-primary-20:#FFF6F3;
+// 按钮颜色
+@ctjt-color-btn-bgl: #F79B2E;
+@ctjt-color-btn-bgr: #F3762D;
+@ctjt-color-btn-bgs: #FFF8DE;
+// 图标颜色
+@ctjt-color-icon: #F79B2E;
+// 价钱颜色
+@ctjt-color-price: #E45450;
+// 标签颜色
+@ctjt-color-label: #F28757;
+// 边框
+@ctjt-color-border-one: #999999;
+@ctjt-color-border-two: #E5E5E5;
+@ctjt-color-border-three: #FFD0CE;
+@ctjt-color-border-four: #D8D8D8;
+// 文字
+@ctjt-color-text-main: #353535;
+@ctjt-color-text-primary: #363737;
+@ctjt-color-text-secondary-one: #666666;
+@ctjt-color-text-secondary-two: #999999;
+@ctjt-color-text-secondary-three: #333333;
+@ctjt-color-text-secondary-four: #0F1010;
+@ctjt-color-text-black: #000000;
+@ctjt-color-text-white: #FFFFFF;
+@ctjt-color-text-secondary-five:#64B6F4;
+@ctjt-color-text-secondary-six:#649AF4;
+
+button::after {
+  border: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  line-height: normal;
+}
+
+page {
+  height: 100%;
+}
+
+.get_phone {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  z-index: 10;
+
+  &::after {
+    border: none;
+  }
+}
+.pop_box{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 4;
+}
